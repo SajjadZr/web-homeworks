@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تمرین اول</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>تمرین اول درس برنامه سازی وب</h2>
+
+
+    <h3>محاسبه قیمت نهایی</h3>
+    <input type="text" id="fee" placeholder="قیمت واحد"/>
+    <input type="text" id="count" placeholder="تعداد"/>
+    <input type="text" id="discount" placeholder="تخفیف"/>
+    <formula evaluator="count*fee-discount"></formula>
+
+
+    <h3>محاسبه شاخص توده بدنی (BMI)</h3>
+    <input type="text" id="weight" placeholder="وزن (kg)"/>
+    <input type="text" id="height" placeholder="قد (m)"/>
+    <formula evaluator="weight / (height * height)"></formula>
+
+
+    <h3>محاسبه زمان رسیدن به مقصد</h3>
+    <input type="text" id="distance" placeholder="مسافت (km)"/>
+    <input type="text" id="speed" placeholder="سرعت (km/h)"/>
+    <formula evaluator="distance / speed"></formula>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
